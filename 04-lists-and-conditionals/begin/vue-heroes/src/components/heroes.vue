@@ -19,7 +19,7 @@
 
       </div>
     </div>
-    <div class="columns">
+    <div class="columns" v-if="selectedHero">
       <div class="column is-3">
         <header class="card-header">
           <p class="card-header-title">{{ selectedHero.firstName }}</p>
